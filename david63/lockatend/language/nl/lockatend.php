@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'LOCK_AT_END'		=> 'Gesloten onderwerpen onderaan weergeven',
+	'LOCK_AT_END_ENABLE'			=> 'Gesloten onderwerpen onderaan weergeven',
+	'LOCK_AT_END_ENABLE_EXPLAIN'	=> 'Sta gebruikers toe deze instelling uit te schakelen.',
 ));
-
